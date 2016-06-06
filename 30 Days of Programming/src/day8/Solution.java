@@ -33,7 +33,7 @@ public class Solution {
          * HackerRank challenge.
          */
         String search;
-        for (int i = 0; i < index; i++) {
+        for (int i = 0; i < phoneBook.size(); i++) {
             search = sc.next();
             if (phoneBook.containsKey(search)) {
                 System.out.println(search + "=" + phoneBook.get(search));
