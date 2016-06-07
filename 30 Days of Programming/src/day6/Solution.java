@@ -25,6 +25,8 @@ public class Solution {
             String str = sc.nextLine();
             printEvenSpaceOdd(str.toCharArray());
         }
+        
+        sc.close();
 
 //        String[] word = new String[T];
 //        for (int i = 0; i < T; i++) {
@@ -34,7 +36,7 @@ public class Solution {
 //        for (int i = 0; i < T; i++) {
 //            char array[] = word[i].toCharArray();
 //        }
-
+//
 //        System.out.println("T is " + T);
 //        System.out.println("word[0] is " + word[0]);
 //        System.out.println("word[1] is " + word[1]);
