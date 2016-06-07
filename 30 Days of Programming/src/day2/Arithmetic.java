@@ -4,11 +4,8 @@ package day2;
  * Created by zzapo on 5/29/2016.
  */
 
-//import java.io.*;
-import java.util.*;
-//import java.text.*;
-//import java.math.*;
-//import java.util.regex.*;
+import java.util.Scanner;
+
 public class Arithmetic {
 
     public static void main(String[] args) {
@@ -22,11 +19,18 @@ public class Arithmetic {
         int totalPercent = tipPercent + taxPercent;
         double extraCost = totalPercent * 0.01 * mealCost;
         double subTotalCost = mealCost + extraCost;
+        System.out.println("At this point, the subtotal is " + subTotalCost);
 
         // cast the result of the rounding operation to an int and save it as totalCost
         int totalCost = (int)Math.round(subTotalCost);
+        
+        // This line should be commented out for the HackerRank challenge.
+        double totalRealCost = (double)Math.round(subTotalCost * 100)/100;
 
         // Print your result
         System.out.println("The total meal cost is " + totalCost + " dollars.");
+        
+        // This line should be commented out for the HackerRank challenge.
+        System.out.println("The real cost without rounding is " + totalRealCost + " dollars.");
     }
 }
