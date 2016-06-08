@@ -1,13 +1,10 @@
+/**
+ * Created by Steven Jennings (zzApotheosis) on 5/29/2016.
+ */
+
 package day1;
 
-/**
- * Created by zzapo on 5/29/2016.
- */
-//import java.io.*;
 import java.util.*;
-//import java.text.*;
-//import java.math.*;
-//import java.util.regex.*;
 
 public class Solution {
 

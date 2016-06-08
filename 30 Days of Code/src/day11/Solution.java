@@ -30,11 +30,11 @@ public class Solution {
         for (int i = 0; i < arr.length - 2; i++) {
             for (int j = 0; j < arr[i].length - 2; j++) {
                 sumArray[i][j] = arr[i][j] + arr[i][j + 1] + arr[i][j + 2] + arr[i + 1][j + 1] + arr[i + 2][j] + arr[i + 2][j + 1] + arr[i + 2][j + 2];
-//              System.out.println("sumArray = " + sumArray[i][j]); //Debug info.
+//                System.out.println("sumArray = " + sumArray[i][j]); //Debug info.
             }
         }
 
-//      System.out.println("Test: " + sumArray.length); //Debug info.
+//        System.out.println("Test: " + sumArray.length); //Debug info.
 
         findLargestValue(sumArray); //Prints the largest value as well.
     }

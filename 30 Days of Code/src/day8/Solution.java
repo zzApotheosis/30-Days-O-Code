@@ -1,5 +1,3 @@
-package day8;
-
 /**
  * Created by Steven Jennings (zzApotheosis) on 6/5/2016.
  * Got help from Kathryn Hodge and her github solution.
@@ -7,6 +5,8 @@ package day8;
  *
  * I totally could have solved this myself... I just didn't know about HashMaps and/or Dictionaries.
  */
+
+package day8;
 
 import java.util.*;
 

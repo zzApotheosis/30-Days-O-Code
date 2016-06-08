@@ -1,8 +1,8 @@
-package day2;
-
 /**
- * Created by zzapo on 5/29/2016.
+ * Created by Steven Jennings (zzApotheosis) on 5/29/2016.
  */
+
+package day2;
 
 import java.util.Scanner;
 
