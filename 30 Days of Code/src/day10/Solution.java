@@ -1,9 +1,9 @@
 /**
  * Created by Steven Jennings (zzApotheosis) on 06 June 2016.
- *
+ * <p>
  * Trying again on June 7, 2016. Solving Day 11 gave me confidence, so I'll try to solve this one too.
  * I'm such a nerd.
- *
+ * <p>
  * Looks like I finally did it. And it wasn't even that difficult. I guess I was just lazy on day 10.
  * When I finished, I wondered about negative inputs, but the HackerRank challenge restricted
  * input integers to be between 1 and 1000000. Happy coding.
@@ -16,12 +16,21 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
+//        explain();
         Scanner in = new Scanner(System.in);
         int stdin = in.nextInt();
         in.close();
         String binaryIn = convertToBinary(stdin);
-//        System.out.println(binaryIn); //Debug info. Uncomment to see binary number of stdin.
+        System.out.println(binaryIn); //Debug info. Uncomment to see binary number of stdin.
         findMaxOnes(binaryIn);
+    }
+
+    public static void explain() {
+        System.out.println("This program finds the maximum number of consecutive 1s in a binary number.");
+        System.out.println("The user inputs an integer. That integer is converted to a binary number in the" +
+                "form of a string.");
+        System.out.println("The string is then analyzed to determine the maximum number of consecutive 1s.");
+        System.out.println("\nEnter any positive integer.");
     }
 
     public static String convertToBinary(int number) {
