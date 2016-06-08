@@ -1,5 +1,3 @@
-package day11;
-
 /**
  * Created by Steven Jennings (zzApotheosis) on 6/7/2016.
  *
@@ -7,6 +5,8 @@ package day11;
  * limit its input matrix to 6x6, so the default size of this program is 6x6. In the main method,
  * integer variables x and y dictate the matrix size, so feel free to modify them.
  */
+
+package day11;
 
 import java.util.Scanner;
 
@@ -19,14 +19,14 @@ public class Solution {
         Scanner in = new Scanner(System.in);
         int x = 6; //Matrix dimensions
         int y = 6;
-        int arr[][] = new int[x][y];
+        int[][] arr = new int[x][y];
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < x; j++) {
                 arr[i][j] = in.nextInt();
             }
         }
 
-        int sumArray[][] = new int[arr.length - 2][arr[0].length - 2];
+        int[][] sumArray = new int[arr.length - 2][arr[0].length - 2];
         for (int i = 0; i < arr.length - 2; i++) {
             for (int j = 0; j < arr[i].length - 2; j++) {
                 sumArray[i][j] = arr[i][j] + arr[i][j + 1] + arr[i][j + 2] + arr[i + 1][j + 1] + arr[i + 2][j] + arr[i + 2][j + 1] + arr[i + 2][j + 2];
