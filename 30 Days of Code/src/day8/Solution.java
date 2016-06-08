@@ -4,6 +4,8 @@ package day8;
  * Created by Steven Jennings (zzApotheosis) on 6/5/2016.
  * Got help from Kathryn Hodge and her github solution.
  * https://github.com/blondiebytes/30-Days-of-Code/blob/master/HackerRank%20Challenge%20Solutions/Day%208/Solution.java
+ *
+ * I totally could have solved this myself... I just didn't know about HashMaps and/or Dictionaries.
  */
 
 import java.util.*;
