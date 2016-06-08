@@ -1,5 +1,5 @@
 /**
- * Created by Steven Jennings (zzApotheosis) on 5/30/2016.
+ * Created by Steven Jennings (zzApotheosis) on 30 May 2016.
  */
 
 package day3;

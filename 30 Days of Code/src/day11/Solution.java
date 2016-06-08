@@ -1,5 +1,5 @@
 /**
- * Created by Steven Jennings (zzApotheosis) on 6/7/2016.
+ * Created by Steven Jennings (zzApotheosis) on 07 June 2016.
  *
  * I would have customized the size of the input matrix by user input, but the HackerRank challenge seems to
  * limit its input matrix to 6x6, so the default size of this program is 6x6. In the main method,
@@ -24,6 +24,7 @@ public class Solution {
                 matrix[i][j] = in.nextInt();
             }
         }
+        in.close();
 
         int[][] sumArray = new int[matrix.length - 2][matrix[0].length - 2];
         for (int i = 0; i < matrix.length - 2; i++) {

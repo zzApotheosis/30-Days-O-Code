@@ -1,5 +1,5 @@
 /**
- * Created by Steven Jennings (zzApotheosis) on 6/6/2016.
+ * Created by Steven Jennings (zzApotheosis) on 06 June 2016.
  * 
  * Trying again on June 7, 2016. Solving Day 11 gave me confidence, so I'll try to solve this one too.
  * I'm such a nerd.

@@ -1,5 +1,5 @@
 /**
- * Created by Steven Jennings (zzApotheosis) on 6/5/2016.
+ * Created by Steven Jennings (zzApotheosis) on 05 June 2016.
  *
  * Integers cannot exceed the maximum value (2^31), so the biggest input without any errors is 12,
  * because 12! < 2^31 and 13! > 2^31.
