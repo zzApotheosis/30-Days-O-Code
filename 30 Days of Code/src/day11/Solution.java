@@ -13,8 +13,7 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-        explain(); //Explains the program to the user.
-                   //Disabled by default so the HackerRank challenge will accept this code.
+//        explain();
 
         Scanner in = new Scanner(System.in);
         int x = 6; //Matrix dimensions
@@ -40,6 +39,7 @@ public class Solution {
     }
 
     public static void explain() {
+        //Explains the program to the user.
         System.out.println("This program accepts a 6x6 matrix of integers as input." +
                 "\nThe program searches through the array for each possible \"hourglass\" shape, like so:");
         System.out.println("\nI I I\n  I  \nI I I");
