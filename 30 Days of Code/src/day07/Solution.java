@@ -2,7 +2,7 @@
  * Created by Steven Jennings (zzApotheosis) on 03 June 2016.
  */
 
-package day7;
+package day07;
 
 import java.util.Scanner;
 

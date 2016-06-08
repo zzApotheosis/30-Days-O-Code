@@ -5,7 +5,7 @@
  * because 12! < 2^31 and 13! > 2^31.
  */
 
-package day9;
+package day09;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package day8;
+package day08;
 
 /**
  * Created by zzapo on 6/5/2016.

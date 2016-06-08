@@ -4,7 +4,7 @@
  * Simple enough. Traditional programming at its finest.
  */
 
-package day0;
+package day00;
 
 public class Solution {
     public static void main(String[] args) {

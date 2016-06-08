@@ -2,7 +2,7 @@
  * Created by Steven Jennings (zzApotheosis) on 28 May 2016.
  */
 
-package day1;
+package day01;
 
 import java.util.*;
 

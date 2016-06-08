@@ -8,7 +8,7 @@
  * Yeah, I could have done this myself... I'm such a lazy man.
  */
 
-package day6;
+package day06;
 
 import java.util.Scanner;
 

@@ -7,7 +7,7 @@
  * I totally could have solved this myself... I just didn't know about HashMaps and/or Dictionaries.
  */
 
-package day8;
+package day08;
 
 import java.util.*;
 
