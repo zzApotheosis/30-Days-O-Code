@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Steven Jennings (zzApotheosis) on 07 June 2016.
  *
  * I would have customized the size of the input matrix by user input, but the HackerRank challenge seems to

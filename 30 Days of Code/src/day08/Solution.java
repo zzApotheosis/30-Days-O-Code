@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Steven Jennings (zzApotheosis) on 04 June 2016.
  *
  * Got help from Kathryn Hodge and her github solution.

@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Steven Jennings (zzApotheosis) on 28 May 2016.
  */
 

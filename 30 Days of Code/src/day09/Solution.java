@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Steven Jennings (zzApotheosis) on 05 June 2016.
  *
  * Integers cannot exceed the maximum value (2^31), so the biggest input without any errors is 12,

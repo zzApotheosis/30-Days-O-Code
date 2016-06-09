@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Steven Jennings (zzApotheosis) on 27 May 2016.
  *
  * Simple enough. Traditional programming at its finest.

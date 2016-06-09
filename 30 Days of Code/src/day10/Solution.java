@@ -1,9 +1,9 @@
-/**
+/*
  * Created by Steven Jennings (zzApotheosis) on 06 June 2016.
- * <p>
+ *
  * Trying again on June 7, 2016. Solving Day 11 gave me confidence, so I'll try to solve this one too.
  * I'm such a nerd.
- * <p>
+ *
  * Looks like I finally did it. And it wasn't even that difficult. I guess I was just lazy on day 10.
  * When I finished, I wondered about negative inputs, but the HackerRank challenge restricted
  * input integers to be between 1 and 1000000. Happy coding.
@@ -21,7 +21,7 @@ public class Solution {
         int stdin = in.nextInt();
         in.close();
         String binaryIn = convertToBinary(stdin);
-        System.out.println(binaryIn); //Debug info. Uncomment to see binary number of stdin.
+//        System.out.println(binaryIn); //Debug info. Uncomment to see binary number of stdin.
         findMaxOnes(binaryIn);
     }
 

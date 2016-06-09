@@ -1,4 +1,4 @@
-/**
+/*
  * Created by Steven Jennings (zzApotheosis) on 02 June 2016.
  *
  * Code source: https://codearvilyn.wordpress.com/2016/05/12/hacker-rank-day-6-lets-review/
