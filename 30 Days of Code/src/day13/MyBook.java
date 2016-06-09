@@ -5,7 +5,7 @@
 package day13;
 
 class MyBook extends Book {
-    int price;
+    private int price;
 
     MyBook(String t, String a, int p) {
         super(t, a);

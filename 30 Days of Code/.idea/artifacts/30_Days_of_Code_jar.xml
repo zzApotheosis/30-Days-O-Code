@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="30 Days of Code:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/30_Days_of_Code_jar</output-path>
-    <root id="archive" name="30 Days of Code.jar">
-      <element id="module-output" name="30 Days of Code" />
-    </root>
-  </artifact>
-</component>
