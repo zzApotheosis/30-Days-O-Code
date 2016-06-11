@@ -13,7 +13,6 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-//        explain();
 
         Scanner in = new Scanner(System.in);
         int x = 6; //Matrix dimensions
@@ -37,19 +36,6 @@ public class Solution {
 //        System.out.println("Test: " + sumArray.length); //Debug info.
 
         findLargest(sumArray); //Prints the largest value as well.
-    }
-
-    public static void explain() {
-        //Explains the program to the user.
-        System.out.println("This program accepts a 6x6 matrix of integers as input." +
-                "\nThe program searches through the array for each possible \"hourglass\" shape, like so:");
-        System.out.println("\nI I I\n  I  \nI I I");
-        System.out.println("\nThe program will then find the hourglass shape whose sum of integers is the largest," +
-                " and print the results to the console.");
-        System.out.println("Input matrix example:\n");
-        System.out.println("1 1 1 0 0 0\n0 1 0 0 0 0\n1 1 1 0 0 0\n0 0 2 4 4 0\n0 0 0 2 0 0" +
-                "\n0 0 1 2 4 0");
-        System.out.println("\nEnter your 6x6 matrix of integers.");
     }
 
     public static void findLargest(int[][] search) {

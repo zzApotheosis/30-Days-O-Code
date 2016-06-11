@@ -16,21 +16,12 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
-//        explain();
         Scanner in = new Scanner(System.in);
         int stdin = in.nextInt();
         in.close();
         String binaryIn = convertToBinary(stdin);
 //        System.out.println(binaryIn); //Debug info. Uncomment to see binary number of stdin.
         findMaxOnes(binaryIn);
-    }
-
-    public static void explain() {
-        System.out.println("This program finds the maximum number of consecutive 1s in a binary number.");
-        System.out.println("The user inputs an integer. That integer is converted to a binary number in the" +
-                "form of a string.");
-        System.out.println("The string is then analyzed to determine the maximum number of consecutive 1s.");
-        System.out.println("\nEnter any positive integer.");
     }
 
     public static String convertToBinary(int number) {
