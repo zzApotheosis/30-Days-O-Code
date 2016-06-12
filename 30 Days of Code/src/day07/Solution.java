@@ -1,5 +1,7 @@
 /*
  * Created by Steven Jennings (zzApotheosis) on 03 June 2016.
+ *
+ * This program makes an integer array of n size then prints the array in reverse order.
  */
 
 package day07;

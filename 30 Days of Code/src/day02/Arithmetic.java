@@ -19,18 +19,16 @@ public class Arithmetic {
         int totalPercent = tipPercent + taxPercent;
         double extraCost = totalPercent * 0.01 * mealCost;
         double subTotalCost = mealCost + extraCost;
-        System.out.println("At this point, the subtotal is " + subTotalCost);
+//        System.out.println("At this point, the subtotal is " + subTotalCost); //Debug info
 
         // cast the result of the rounding operation to an int and save it as totalCost
         int totalCost = (int)Math.round(subTotalCost);
-        
-        // This line should be commented out for the HackerRank challenge.
-        double totalRealCost = (double)Math.round(subTotalCost * 100)/100;
+
+//        double totalRealCost = (double)Math.round(subTotalCost * 100)/100; //Testing double usage
 
         // Print your result
         System.out.println("The total meal cost is " + totalCost + " dollars.");
-        
-        // This line should be commented out for the HackerRank challenge.
-        System.out.println("The real cost without rounding is " + totalRealCost + " dollars.");
+
+//        System.out.println("The real cost without rounding is " + totalRealCost + " dollars."); //Debug info
     }
 }

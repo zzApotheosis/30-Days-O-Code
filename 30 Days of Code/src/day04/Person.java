@@ -1,5 +1,9 @@
 /*
  * Created by Steven Jennings (zzApotheosis) on 31 May 2016.
+ *
+ * This program takes T number of tries. For each try, the user inputs an age.
+ * That age is increased by three years, and both of these ages are determined
+ * to be young, teenager, or old.
  */
 
 package day04;
@@ -10,9 +14,6 @@ public class Person {
     private int age;
 
     public static void main(String[] args) {
-        System.out.println("This program takes T number of tries. For each try, the user inputs an age."
-                + " That age is increased by three years, and both of these ages are determined to be young,"
-                + " teenager, or old.");
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {

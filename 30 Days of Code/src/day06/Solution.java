@@ -4,8 +4,10 @@
  * Code source: https://codearvilyn.wordpress.com/2016/05/12/hacker-rank-day-6-lets-review/
  *
  * I'll review this code and see if I can learn from it...
- *
  * Yeah, I could have done this myself... I'm such a lazy man.
+ *
+ * This program takes T number of words and prints the even and odd indexes
+ * of those words separately.
  */
 
 package day06;

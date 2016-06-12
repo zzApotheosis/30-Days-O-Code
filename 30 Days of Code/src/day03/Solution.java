@@ -1,5 +1,7 @@
 /*
  * Created by Steven Jennings (zzApotheosis) on 30 May 2016.
+ *
+ * Getting funky with if statements.
  */
 
 package day03;
