@@ -6,7 +6,7 @@ package day08;
  * I tried using arrays to assign names and numbers to corresponding indexes, but couldn't make it work...
  * The instructions recommended HashMaps and/or dictionaries, so I checked out Kathryn Hodge's YouTube tutorial about
  * this day of coding, and she was able to teach me about HashMaps and Dictionaries. Basically, they're awesome
- * versions of arrays. I completed the challenge in the other class "Solution".
+ * versions of arrays. I completed the challenge in the other class "Solution0".
  */
 
 import java.util.*;
