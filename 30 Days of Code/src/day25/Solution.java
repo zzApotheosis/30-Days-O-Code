@@ -9,7 +9,7 @@
  * on GitHub has helped me out once more. I'll check out the optimization for this sometime later.
  *
  * Side note: My code worked on all the test cases except for case 7 and 8, where
- * the input integers were way too high for the HackerRank compiler to handle with the code I wrote.
+ * the input integers were way too large for the HackerRank compiler to handle with the code I wrote.
  */
 
 package day25;
