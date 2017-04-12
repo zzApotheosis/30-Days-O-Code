@@ -43,22 +43,22 @@ public class Solution {
         System.out.println("The word, " + input + ", is " + ((!isPalindrome) ? "not a palindrome." : "a palindrome."));
     }
 
-    Queue<Character> queue = new LinkedList<>();
-    Deque<Character> stack = new ArrayDeque<>();
+    private Queue<Character> queue = new LinkedList<>();
+    private Deque<Character> stack = new ArrayDeque<>();
 
-    public void pushCharacter(char ch) {
+    private void pushCharacter(char ch) {
         stack.push(ch);
     }
 
-    public char popCharacter() {
+    private char popCharacter() {
         return stack.pop();
     }
 
-    public void enqueueCharacter(char ch) {
+    private void enqueueCharacter(char ch) {
         queue.add(ch);
     }
 
-    public char dequeueCharacter() {
+    private char dequeueCharacter() {
         return queue.remove();
     }
 }

@@ -38,14 +38,14 @@ public class Solution {
         findLargest(sumArray); //Prints the largest value as well.
     }
 
-    public static void findLargest(int[][] search) {
+    private static void findLargest(int[][] search) {
         int largestValue = Integer.MIN_VALUE;
 
-        for (int i = 0; i < search.length; i++) {
-            for (int j = 0; j < search[i].length; j++) {
+        for (int[] aSearch : search) {
+            for (int j = 0; j < aSearch.length; j++) {
 //                System.out.println("Current largest value = " + largestValue); //Debug info.
-                if (search[i][j] > largestValue) {
-                    largestValue = search[i][j];
+                if (aSearch[j] > largestValue) {
+                    largestValue = aSearch[j];
                 }
             }
         }

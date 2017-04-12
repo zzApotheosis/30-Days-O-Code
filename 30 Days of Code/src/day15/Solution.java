@@ -13,7 +13,7 @@ package day15;
 import java.util.Scanner;
 
 public class Solution {
-    public static Node insert(Node head, int data) {
+    private static Node insert(Node head, int data) {
         Node current = head;
         Node newNode = new Node(data);
 
@@ -29,7 +29,7 @@ public class Solution {
         return head;
     }
 
-    public static void display(Node head) {
+    private static void display(Node head) {
         Node start = head;
         while (start != null) {
             System.out.print(start.data + " ");

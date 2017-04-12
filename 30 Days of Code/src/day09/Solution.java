@@ -18,7 +18,7 @@ public class Solution {
         System.out.println(stdout);
     }
 
-    public static int factorial(int num) {
+    private static int factorial(int num) {
         if (num <= 1) {
 //            System.out.println("Reached Base Case"); //Debug info
             return 1;

@@ -15,7 +15,7 @@ public class Solution {
         printReverseArray(array);
     }
 
-    public static int[] getArray() {
+    private static int[] getArray() {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] arr = new int[n];
@@ -26,7 +26,7 @@ public class Solution {
         return arr;
     }
 
-    public static void printReverseArray(int[] array) {
+    private static void printReverseArray(int[] array) {
         for (int i = array.length - 1; i >= 0; i--) {
             System.out.print(array[i] + " ");
         }

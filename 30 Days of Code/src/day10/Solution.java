@@ -24,29 +24,29 @@ public class Solution {
         findMaxOnes(binaryIn);
     }
 
-    public static String convertToBinary(int number) {
-        String binaryNumberIn = "";
+    private static String convertToBinary(int number) {
+        StringBuilder binaryNumberIn = new StringBuilder();
         while (number > 0) {
-            binaryNumberIn += number % 2;
+            binaryNumberIn.append(number % 2);
             number /= 2;
 //            System.out.println(binaryNumberIn); //Debug info.
 //            System.out.println(number); //Debug info.
         }
-        char[] reverseBinary = binaryNumberIn.toCharArray();
-        String binaryNumberOut = "";
+        char[] reverseBinary = binaryNumberIn.toString().toCharArray();
+        StringBuilder binaryNumberOut = new StringBuilder();
         for (int i = binaryNumberIn.length() - 1; i >= 0; i--) {
-            binaryNumberOut += reverseBinary[i];
+            binaryNumberOut.append(reverseBinary[i]);
         }
 //        System.out.println(binaryNumberOut); //Debug info.
-        return binaryNumberOut;
+        return binaryNumberOut.toString();
     }
 
-    public static void findMaxOnes(String input) {
+    private static void findMaxOnes(String input) {
         int maxOnes = 0;
         int counter = 0;
         char[] inputArray = input.toCharArray();
-        for (int i = 0; i < inputArray.length; i++) {
-            if (inputArray[i] == '1') {
+        for (char anInputArray : inputArray) {
+            if (anInputArray == '1') {
                 counter++;
                 if (counter > maxOnes) {
                     maxOnes = counter;

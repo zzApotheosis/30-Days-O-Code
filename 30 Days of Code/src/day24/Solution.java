@@ -30,7 +30,7 @@ public class Solution {
         return head;
     }
 
-    public static Node insert(Node head, int data) {
+    private static Node insert(Node head, int data) {
         Node p = new Node(data);
         if (head == null)
             head = p;
@@ -46,7 +46,7 @@ public class Solution {
         return head;
     }
 
-    public static void display(Node head) {
+    private static void display(Node head) {
         Node start = head;
         while (start != null) {
             System.out.print(start.data + " ");

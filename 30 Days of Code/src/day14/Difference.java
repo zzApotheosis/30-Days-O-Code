@@ -6,7 +6,7 @@ package day14;
 
 class Difference {
     private int[] elements;
-    public int maximumDifference;
+    int maximumDifference;
     // Add your code here
     Difference(int[] input) {
         this.elements = input;
@@ -16,13 +16,13 @@ class Difference {
         int minValue = Integer.MAX_VALUE;
         int maxValue = Integer.MIN_VALUE;
 
-        for (int i = 0; i < this.elements.length; i++) {
-            if (this.elements[i] < minValue) {
-                minValue = this.elements[i];
+        for (int element : this.elements) {
+            if (element < minValue) {
+                minValue = element;
 //                System.out.println("New minValue = " + minValue); //Debug info
             }
-            if (this.elements[i] > maxValue) {
-                maxValue = this.elements[i];
+            if (element > maxValue) {
+                maxValue = element;
 //                System.out.println("New maxValue = " + maxValue); //Debug info
             }
         }

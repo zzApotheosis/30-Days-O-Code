@@ -4,7 +4,7 @@
 
 package day15;
 
-public class Node {
+class Node {
     int data;
     Node next;
     Node(int d) {

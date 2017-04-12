@@ -29,7 +29,7 @@ public class Person {
         sc.close();
     }
 
-    public Person(int initialAge) {
+    private Person(int initialAge) {
         // Add some more code to run some checks on initialAge
         if (initialAge < 0) {
             System.out.println("Age is not valid, setting age to 0.");
@@ -39,7 +39,7 @@ public class Person {
         }
     }
 
-    public void amIOld() {
+    private void amIOld() {
         // Write code determining if this person's age is old and print the
         // correct statement:
         String msg;
@@ -53,7 +53,7 @@ public class Person {
         System.out.println(msg);
     }
 
-    public void yearPasses() {
+    private void yearPasses() {
         // Increment this person's age.
         this.age++;
     }

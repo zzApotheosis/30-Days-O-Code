@@ -32,7 +32,7 @@ public class Solution {
         return value;
     }
 
-    public static Node insert(Node root, int data) {
+    private static Node insert(Node root, int data) {
         if (root == null) {
             return new Node(data);
         } else {

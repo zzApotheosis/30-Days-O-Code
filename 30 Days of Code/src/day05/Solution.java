@@ -18,7 +18,7 @@ public class Solution {
         output(N);
     }
 
-    public static void output(int x) {
+    private static void output(int x) {
         for (int i = 1; i <= 10; i++) {
             System.out.println(x + " x " + i + " = " + x * i);
         }
