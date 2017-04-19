@@ -64,6 +64,7 @@ public class Solution {
         }
         head = removeDuplicates(head);
         display(head);
-
+        
+        sc.close();
     }
 }
