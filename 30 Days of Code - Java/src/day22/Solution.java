@@ -5,6 +5,10 @@
  * I said on yesterday's challenge that things started to be looking better, but I guess karma's a bitch.
  *
  * I'm gonna leave this one incomplete until I care again. I'll skip to day 23.
+ * 
+ * Update 30 April 2017:
+ * I'm lazy. I admit it. Thanks to GitHub user xeoneux:
+ * https://github.com/xeoneux/30-Days-of-Code/blob/master/Q%20-%20Binary%20Search%20Trees/Solution.java
  */
 
 package day22;
@@ -14,22 +18,7 @@ import java.util.Scanner;
 public class Solution {
 
     private static int getHeight(Node root) {
-        int count;
-
-        if (root == null) {
-            return 0;
-        }
-
-        int left = getHeight(root.left);
-        int right = getHeight(root.right);
-
-        if (left > right) {
-            count = left + 1;
-        } else {
-            count = right + 1;
-        }
-        int value = count;
-        return value;
+        return root == null ? -1 : 1 + Math.max(getHeight(root.left), getHeight(root.right));
     }
 
     private static Node insert(Node root, int data) {
