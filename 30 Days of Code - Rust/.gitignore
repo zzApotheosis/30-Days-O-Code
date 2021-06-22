@@ -1,3 +1,7 @@
 # Ignore all Rust-related build stuff
 target*
 Cargo.lock
+
+# Ignore HackerRank stuff
+input*
+output*
