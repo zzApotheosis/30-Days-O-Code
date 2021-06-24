@@ -3,7 +3,7 @@
  */
 
 /* Imports */
-use std::io::{self, BufRead};
+use std::io::BufRead;
 
 /* Main */
 fn main() {
